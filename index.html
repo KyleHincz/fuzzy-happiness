@@ -1,61 +1,55 @@
-Access: https://www.schema.org/Recipe use this recipe schema to create a html file with json-ld of the recipe below. The <script> section to be fully populated with ingredients, method, cooking times and all other tags but the <head> section of the html only needs the title of the recipe, also to appear on the page as a heading. Copy the wording and ingredients verbatim, make no modifications to the text. If there are any subheadings in the recipelist, add them as a separate ingredient in the order they appear; each subheading in all capitals wrapped in "-----" . Include as a keyword (infer if not present) (1) which cuisine the recipe is from i.e. "Thai", (2) Whether Vegan, Vegetarian, or what is the primary meat e.g. "Beef" . Also include recipeCategory example: Starter, Side Dish, Main Course, Dessert, etc. Make sure you include the source as the final step of recipe: Molly Baz Cook This Book
-Recipe below:
-Jammy Eggs with Yogurt & Brown-Buttered Nuts
-This recipe is an ode to one of my favorite breakfasts: çilbir, a
-Turkish dish of poached eggs served over Greek yogurt and
-drowned in chile-flecked butter. Something glorious happens
-when garlicky yogurt mixes with roasty-toasty browned butter
-and jammy egg yolks. In this case we’ll boil the eggs instead of
-poaching them. The key to jammy eggs is precise timing, so
-you’ll cook them for exactly 7 minutes in boiling water before
-shocking them in an ice bath to stop the cooking. Seek out
-Aleppo pepper if you can—it’s a deliciously fruity and very mild
-chile flake, which means you can use it liberally. If you can’t
-find it, red pepper flakes will work, too, just hold back a bit
-since they tend to be much spicier.
-Serves 4
-PRODUCE
-1 small garlic clove
-DAIRY
-8 large eggs
-1 cup plain whole-milk Greek yogurt or labneh
-5 tablespoons unsalted butter
-PANTRY
-Kosher salt
-⅔ cup walnuts, blanched hazelnuts, or shelled pistachios
-2 teaspoons Aleppo pepper or other mild chile flakes
-¼ teaspoon ground turmeric
-Flatbreads or pitas, for dragging
-① Cook the eggs:
-✦
-Bring a medium pot of water to a boil. Using a slotted
-spoon, gently lower 8 eggs into the water; set a timer for 7
-minutes.
-✦
-Meanwhile, fill a medium bowl with ice water. Once the eggs
-have finished cooking, use a slotted spoon to transfer them to
-the ice bath to stop cooking. Let the eggs cool for at least 5
-minutes, then peel them and set aside.
-② Make the garlic yogurt: Finely grate 1 garlic clove into a
-small bowl, then stir in 1 cup plain whole-milk Greek yogurt.
-Season with salt.
-③ Make the brown-buttered nuts:
-✦
-Chop ⅔ cup walnuts so that all pieces are about the size of
-a lentil.
-✦
-Wipe out the saucepan used for the eggs so that it is
-completely dry, then add 5 tablespoons butter and cook over
-medium-low heat until just melted and foamy. Add the walnuts
-and cook, stirring occasionally, until very lightly toasted, 2 to 3
-minutes.
-✦
-Add 2 teaspoons Aleppo pepper and ¼ teaspoon turmeric
-and continue to cook until the walnuts are toasted and golden
-brown and the butter is very nutty and fragrant, about 1
-minute longer. Remove from the heat and stir in ½ teaspoon
-salt.
-④ Serve: Divide the garlic yogurt among 4 shallow bowls.
-Nestle 2 peeled eggs in each bowl and drizzle the
-brown-buttered nuts over top. Season with more salt and serve
-with flatbread.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jammy Eggs with Yogurt & Brown-Buttered Nuts</title>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "Recipe",
+        "name": "Jammy Eggs with Yogurt & Brown-Buttered Nuts",
+        "author": "Molly Baz Cook This Book",
+        "image": "",
+        "description": "This recipe is an ode to one of my favorite breakfasts: çilbir, a Turkish dish of poached eggs served over Greek yogurt and drowned in chile-flecked butter. Something glorious happens when garlicky yogurt mixes with roasty-toasty browned butter and jammy egg yolks.",
+        "keywords": "Turkish, Vegetarian, Main Course",
+        "recipeYield": "Serves 4",
+        "recipeCategory": "Main Course",
+        "recipeCuisine": "Turkish",
+        "recipeIngredient": [
+            "-----PRODUCE-----",
+            "1 small garlic clove",
+            "-----DAIRY-----",
+            "8 large eggs",
+            "1 cup plain whole-milk Greek yogurt or labneh",
+            "5 tablespoons unsalted butter",
+            "-----PANTRY-----",
+            "Kosher salt",
+            "⅔ cup walnuts, blanched hazelnuts, or shelled pistachios",
+            "2 teaspoons Aleppo pepper or other mild chile flakes",
+            "¼ teaspoon ground turmeric",
+            "Flatbreads or pitas, for dragging"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cook the eggs: Bring a medium pot of water to a boil. Using a slotted spoon, gently lower 8 eggs into the water; set a timer for 7 minutes. Meanwhile, fill a medium bowl with ice water. Once the eggs have finished cooking, use a slotted spoon to transfer them to the ice bath to stop cooking. Let the eggs cool for at least 5 minutes, then peel them and set aside."
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Make the garlic yogurt: Finely grate 1 garlic clove into a small bowl, then stir in 1 cup plain whole-milk Greek yogurt. Season with salt."
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Make the brown-buttered nuts: Chop ⅔ cup walnuts so that all pieces are about the size of a lentil. Wipe out the saucepan used for the eggs so that it is completely dry, then add 5 tablespoons butter and cook over medium-low heat until just melted and foamy. Add the walnuts and cook, stirring occasionally, until very lightly toasted, 2 to 3 minutes. Add 2 teaspoons Aleppo pepper and ¼ teaspoon turmeric and continue to cook until the walnuts are toasted and golden brown and the butter is very nutty and fragrant, about 1 minute longer. Remove from the heat and stir in ½ teaspoon salt."
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Serve: Divide the garlic yogurt among 4 shallow bowls. Nestle 2 peeled eggs in each bowl and drizzle the brown-buttered nuts over top. Season with more salt and serve with flatbread."
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <h1>Jammy Eggs with Yogurt & Brown-Buttered Nuts</h1>
+</body>
+</html>
